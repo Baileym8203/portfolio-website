@@ -154,6 +154,12 @@ display:flex;
 text-align: center;
 }
 
+.link-list_item {
+text-decoration: none;
+
+
+}
+
 .profile {
 max-width: 700px;
 margin: 0 auto;
