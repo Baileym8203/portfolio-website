@@ -53,12 +53,12 @@ background-color:lightgrey;
 }
 
 .button { /*overwrites browser defaults and resets the border */
+      background-color: rgb(31, 211, 136);
       border: none;
       display:inline-block;
       /* takes the font from the outer container */
       font-family: inherit;
       /* styles the backround color, font color, and text decoration of the button */
-      background-color: #357b70;
       color: white;
       text-decoration: none;
       /* adds spacing to the button */
@@ -119,6 +119,44 @@ which centers the container horizontally*/
 margin: 0 auto;
 }
 
+.profile2{
+border: darkgrey solid 5px;
+text-align: center;
+padding: 10px;
+}
+
+#Contact-telephone{
+margin-right: 39px;
+
+}
+
+#Contact-Message{
+margin-right: 26px;
+
+}
+
+span{
+background-color: black;
+color: white;
+border: black solid 5px;
+border-radius: 25%;
+}
+
+.berlin-illustration{
+margin-left: 15px;
+
+}
+
+.profile3{
+border-spacing: 50px;
+border: darkgrey solid 5px;
+}
+
+.sub-button{
+align-items: center;
+
+}
+
 .article {
  display: inline-block;
 
@@ -160,7 +198,7 @@ text-decoration: none;
 
 }
 
-.profile {
+.profile, .profile2, .profile3{
 max-width: 700px;
 margin: 0 auto;
 text-align: center;
