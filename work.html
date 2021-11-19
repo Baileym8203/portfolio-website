@@ -5,8 +5,8 @@
   <meta charset = "utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>My Work - Portfolio</title>
-     <link rel = "Shortcut icon" href = "img/mylogo.png" type="image/x-icon"
-      />
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel = "Shortcut icon" href = "img/mylogo.png" type="image/x-icon"/>
       <link rel = "stylesheet" type = "text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
       <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
       <link rel = "stylesheet" type = "text/css" href = "CSS/style.production.css">
@@ -40,54 +40,84 @@
       <div class = "profile">
       <h1>Work</h1>
       </div>
-      <div class ="grid">
-         <!-- Grid items will live here! -->
-         <div class = "grid_item">
-            <h2> mobile web app </h2>
-            <p> in this project I was responsible for the front-end with react.js. Additionally
-                i've created the HTML and CSS templates. </p>
-            <a href = "#">See project on Github</a>
-               </div>
-               <div class = "grid_item">
-                <h2> Native MacOS application </h2>
-                <p> Within this project I was responsible for the front-end. It is written in Javafx </p>
-               <a href = "#">See project on Github</a>
-               </div>
-               <div class = "grid_item">
-               <h2> Node.js pdf generation </h2>
-               <p> Within this project I created a service that generates pdf out of webpages
-                   with the help of a Node.js server.  </p>
-                 <a href = "#">See project on Github</a>
-               </div>
-               <div class = "grid_item">
-                <h2>Fully Scalable Website</h2>
-                <p> Within this project I was responsible for creating a website fully scalable to all viewers with CSS3,
-                    HTML5, and SCCS.</p>
-                <a href = "https://baileym8203.github.io/tron-project/index.html" target = "_blank">See Project On Github</a>
-              
-               </div>
-               <div class = "grid_item">
-                <h2> Style guide for portfolio page </h2>
-                <p> Here you can find the styleguide I've created for this portfolio page.
-                    It was created with the livingstyleguide gem and grunt.</p>
-                   <a href = "#">See Styleguide</a>
-                   </div>
-               <div class = "grid_item">
-               <h2>Medium Blog</h2>
-               <p>I'm also writing on medium.com about react.js</p>
-               <a href = "#">Read my latest Blogpost</a>
-           </div>
-           <div class = "grid_item">
-               <h2>Your Project?</h2>
-               <p> I can help in realizing front-end and back-end projects with the following technologies:
-                   React.js, Javascript, Java, JavaFX, HTMl and CSS. I am also happy to learn other technologies
-                   if needed.</p>
-               <a href = "#">Contact Me</a>
-               </div>
-              </div>
-
-        </div>
-     <footer class = "page-footer">
+      <div class ="container-fluid">
+         <div class = "row">
+         <div class="col-xs-12">
+          <div class="card" id = "card">
+            <img src="#" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mobile Web App</h5>
+              <p class="card-text">in this project I was responsible for the front-end with react.js. Additionally
+                i've created the HTML and CSS templates.</p>
+              <a href="#" class="btn btn-primary">Check out on my Github</a>
+            </div>
+          </div>
+          <!-- the # need to be filled with github links when avalible -->
+          <div class="row-full">
+          <div class = "col-xs-12">
+                <div class="card" id = "card">
+                  <img src="#" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Node.js PDF generater</h5>
+                    <p class="card-text"> Within this project I created a service that generates pdf out of webpages
+                      with the help of a Node.js server.</p>
+                    <a href="#" class="btn btn-primary">Check out on my Github</a>
+                  </div>
+                  </div>
+                  <div class="row-full">
+                  <div class ="col-xs-12">
+                <div class="card" id = "card">
+                  <img src="img/lakers.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Fully Adaptive website</h5>
+                    <p class="card-text">Within this project I was responsible for creating a website fully Adaptive to all viewers with CSS3,
+                      HTML5, and Jquery/Js based on the clients description.</p>
+                    <a href="#" class="btn btn-primary">Check out online</a>
+                  </div>
+                  </div>
+                  <!-- this is the end of the 1st row-->
+                  <div class="row-full">
+                 <div class ="col-xs-12">
+                    <div class="card" id = "card">
+                      <img src="#" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Style guide for portfolio page</h5>
+                        <p class="card-text">Here you can find the styleguide I've created for this portfolio page.
+                          It was created with the livingstyleguide gem and grunt.</p>
+                        <a href="#" class="btn btn-primary">See Styleguide</a>
+                      </div>
+                      </div>
+                      </div>
+                      <div class="row-full">
+                      <div class="col-xs-12">
+                      <div class="card" id = "card">
+                        <img src="#" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Medium Blog</h5>
+                          <p class="card-text">I'm also writing on medium.com about react.js</p>
+                          <a href="#" class="btn btn-primary">Read my latest Blogpost</a>
+                        </div>
+                        </div>
+                        </div>
+                        <div class="row-full">
+                        <div class="col-xs-12">
+                        <div class="card" id = "card">
+                          <img src="#" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Your Project?</h5>
+                            <p class="card-text">I can help in realizing front-end and back-end projects with the following technologies:
+                              React.js, Javascript, Java, JavaFX, HTMl and CSS. I am also happy to learn other technologies
+                              if needed.</p>
+                            <a href="#" class="btn btn-primary">Contact Me</a>
+                          </div>
+                          </div>
+                          </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+        <footer class = "page-footer">
         <p> Find Me on </p>
         <div class = "social-media">
         <nav class = "link-list">
@@ -100,7 +130,15 @@
             </nav>
           </div>
          </footer>
-
-         
+         <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+  crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+crossorigin="anonymous"></script>
         </body>
          </html>
