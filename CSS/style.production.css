@@ -181,11 +181,15 @@ border-radius: 25%;
 margin-left: 15px;
 
 }
-
+/* need to change this later to fit more */
 .profile3{
-display: inline-block;
-border-spacing: 5vw;
-border: darkgrey solid 5px;
+border-spacing: 3.5vw;
+border: black solid 5px;
+text-align: center;
+padding: 10px;
+background: whitesmoke;
+color: black;
+box-shadow: 3px 3px 2px 4px black;
 }
 
 .sub-button{
