@@ -9,6 +9,7 @@ body { font-family: 'lato' , sans-serif;
     font-size: 18px;
     line-height: 1.7;
     }
+    
     .row-full{
     line-height: normal;
     padding:0px;
@@ -16,6 +17,10 @@ body { font-family: 'lato' , sans-serif;
     text-align: left;
     justify-content: flex-start;
   }
+
+#button-card {
+color: white;
+}
 
 
 h1 { font-size: 30px;
@@ -178,7 +183,8 @@ margin-left: 15px;
 }
 
 .profile3{
-border-spacing: 50px;
+display: inline-block;
+border-spacing: 5vw;
 border: darkgrey solid 5px;
 }
 
